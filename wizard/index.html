@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which Law Applies — 1961 Act or 2025 Act?</title>
+<meta name="description" content="Three questions to find out whether the Income-tax Act, 1961 or the Income-tax Act, 2025 applies to your return, TDS or notice.">
+<link rel="canonical" href="https://tax.paychaserhq.com/wizard/">
+<link rel="stylesheet" href="/styles.css">
+<script defer src="/app.js"></script>
+
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="/">Income Tax Act 2025 <span>Section Mapper</span></a>
+<nav><a href="/">Search</a><a href="/tds/">TDS codes</a><a href="/wizard/">Which law applies?</a><a href="/cheatsheet/">Cheat sheet</a><a href="/sources/">Sources</a></nav>
+</div></header>
+<main class="wrap">
+<h1>Which law applies to you?</h1>
+<p class="lede">Three quick questions. The logic: returns for FY 2025-26 (AY 2026-27) are under the 1961 Act; income from 1 April 2026 onward (Tax Year 2026-27) is under the 2025 Act; pending assessments, notices and appeals for years before 1 April 2026 continue under the 1961 Act; TDS follows the earlier of the payment or credit date.</p>
+<form id="wizard" onsubmit="return false">
+<fieldset><legend>1. What are you doing?</legend>
+<label><input type="radio" name="what" value="return" required> Filing an income-tax return</label>
+<label><input type="radio" name="what" value="tds"> Deducting / paying TDS</label>
+<label><input type="radio" name="what" value="notice"> Responding to a notice, assessment or appeal</label>
+<label><input type="radio" name="what" value="adv"> Paying advance tax</label></fieldset>
+<fieldset><legend>2. Which year does the income / payment relate to?</legend>
+<label><input type="radio" name="year" value="fy25" required> Up to 31 March 2026 (FY 2025-26 or earlier)</label>
+<label><input type="radio" name="year" value="fy26"> On or after 1 April 2026 (Tax Year 2026-27)</label></fieldset>
+<fieldset id="tds-extra" hidden><legend>3. For TDS — which date came first?</legend>
+<label><input type="radio" name="tdsdate" value="before"> Payment or credit was on or before 31 March 2026</label>
+<label><input type="radio" name="tdsdate" value="after"> Payment or credit was on or after 1 April 2026</label></fieldset>
+<button class="btn" type="button" id="wizard-go">Find out</button>
+</form>
+<div id="wizard-result" aria-live="polite"></div>
+<section><h2>The rule, in one paragraph</h2>
+<p>The Income-tax Act, 2025 took effect on 1 April 2026. It replaces the 1961 Act for income arising on or after that date. Everything before it — returns for FY 2025-26 (AY 2026-27), pending assessments, notices and appeals for earlier years — continues under the 1961 Act with the old section and form numbers. For TDS, the Act that applies is decided by the earlier of the payment date or the credit date: salary credited on 31 March 2026 but paid on 5 April 2026 is still under the 1961 Act, Section 192. Rates, slabs and limits did not change — only the numbers moved.</p>
+<p class="src">Sources: <a href="https://taxgst.in/income-tax-act-2025-section-form-mapping-guide/" target="_blank" rel="noopener">TaxGST.in — Income Tax Act 2025: Old Vs New Sections And Forms</a>, <a href="https://www.zoho.com/in/payroll/academy/taxes-and-compliance/new-income-tax-act-2025.html" target="_blank" rel="noopener">Zoho Payroll Academy — New Income Tax Act: Complete Guide</a>, <a href="https://www.durgeshchavda.com/insights/income-tax-act-2025-section-mapping/" target="_blank" rel="noopener">Durgesh Chavda (CA) — Income-tax Act 2025 Section Mapping</a>, <a href="https://taxguru.in/income-tax/income-tax-act-2025-1961-section-mapping-cheat-sheet-sections-day.html" target="_blank" rel="noopener">TaxGuru — Income-tax Act 2025 vs 1961: Section Mapping Cheat Sheet</a></p></section>
+<aside class="disclaimer" role="note"><strong>Not tax advice.</strong> This is a free reference tool built from published concordance tables. Every mapping shown as verified was checked against at least two independent published sources, and each row links to its sources so you can check it yourself. For any filing, verify against the enacted Income-tax Act, 2025 and the official CBDT concordance (Form 121) or the e-filing portal's comparison utility at <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">incometax.gov.in</a>. If a row is marked “unverified”, do not rely on it for a return or a challan.</aside></main>
+<footer class="wrap"><p>Free reference tool. Built from published concordance tables; every verified row cites at least two independent sources. <a href="/sources/">How we verify</a> · <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">incometax.gov.in</a></p>
+<p class="small">Income-tax Act, 2025 effective 1 April 2026. Sections renumbered 819 → 536. Rates, slabs and limits are unchanged — only the numbers moved.</p></footer>
+</body></html>
